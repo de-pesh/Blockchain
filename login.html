@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certity</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div id="nav_bar">
+        <div id="heading">Major Project </div>
+        <div id = "lbut">
+            <a href = "index.html"><button id="log_in">HOME</button></a>
+        </div>      
+    </div>
+    <div id="main">
+        <h1 id="welcometxt" style="color: white; font-family:Arial, Helvetica, sans-serif; padding:10px">Welcome </h1>
+        <div id="loginarea">
+            <label for="userid" style="color: white; font-family:Arial, Helvetica, sans-serif">&nbsp;User ID &nbsp;</label>
+            <input type="text" id="userid">
+            <label for="" style="color: white; font-family:Arial, Helvetica, sans-serif">Password</label>
+            <input type="password" id="pass">
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+        <script src="ss.js"></script>
+        <div id="buttons_main">
+            <div id="Logindiv">
+                 <button id="btn_login" onclick="Check()">Log In</button>
+            </div>      
+        </div>
+    </div>
+    <div id="outer">
+        <p id="balance">  </p>
+    </div>
+</body>
+</html>
+
+
+
