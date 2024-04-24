@@ -284,6 +284,14 @@ const abi = [
 ];
 const address = "0x6Ee83EcC201c1a051111E0bF1A44C55D8c605d6E";
 
+
+function GotFile(){
+  $('#text_cert_upload').html('UPLOADED');
+}
+// document.getElementById('myfileArea').addEventListener('change', () => {	
+  	
+// });
+
 async function Verify() {
   var output = document.getElementById("balance");
   output.style.display = "none";

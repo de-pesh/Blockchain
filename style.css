@@ -95,9 +95,13 @@ button:hover {
     align-items: center;
     text-align: center;
     line-height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #cert_id{
+    display: none;
     margin-top: 90px;
     padding: 10px;
     font-size: large;
@@ -108,9 +112,19 @@ button:hover {
 
 
 #text_cert_upload{
+    margin-top: 90px;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 600;
+    font-size: larger;
     color: white;
+    background:  rgba(0, 0, 0, 0.386);
+    backdrop-filter: blur(10px);
+    margin-left:30%;
+    margin-right: 30%;
+    border-radius: 30px;
+
+
+    
 }
 #buttons_main{
     display: flex;
